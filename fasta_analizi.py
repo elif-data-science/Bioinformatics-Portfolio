@@ -27,7 +27,7 @@ def parse_fasta(file_path):
     
     return sequences
 
-# Örnek Kullanım ve Raporlama
+
 if __name__ == "__main__":
     # Örnek bir FASTA verisi simüle edelim
     sample_data = {
