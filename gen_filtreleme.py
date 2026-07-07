@@ -16,7 +16,7 @@ def filter_significant_genes(data_frame, log2fc_threshold=2.0, p_threshold=0.05)
     
     return up_regulated, down_regulated
 
-# Örnek Veri Seti Oluşturma
+
 if __name__ == "__main__":
     raw_data = {
         'gene_id': ['BRCA1', 'TP53', 'EGFR', 'MYC', 'IL6', 'VEGFA'],
